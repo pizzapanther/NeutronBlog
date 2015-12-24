@@ -1,148 +1,217 @@
 {
+  "total-pages": 2,
   "posts": [
     [
       "2015/04-29-version-1541-cyber-roach-released",
       {
-        "categories": [
-          "Release"
+        "summary": "\n\n Version 15.4.1 (Cyber Roach) was released today. Cyber Roach includes two really cool features, spell checking and auto code complete. Both can be turned on and off in your preferences. However, spell checking can be quickly toggled on and off with ...",
+        "title": "Version 15.4.1 (Cyber Roach) Released",
+        "authors": [
+          {
+            "name": "Paul Bailey",
+            "slug": "paul-bailey"
+          }
         ],
         "published": "2015-04-29 13:43:00 -00:00",
-        "summary": "narf",
-        "authors": [
-          "Paul Bailey"
-        ],
-        "title": "Version 15.4.1 (Cyber Roach) Released"
+        "categories": [
+          {
+            "name": "Release",
+            "slug": "release"
+          }
+        ]
       }
     ],
     [
       "2015/04-07-i-like-big-frameworks-and-i-can-not-lie",
       {
-        "categories": [
-          "Development"
+        "summary": "\n\n All the rage lately is to trash frameworks and to profess how smart you are and show you can do the same development with libraries and/or micro frameworks. You also show that you are a real developer by coming up with your own abstractions and algo...",
+        "title": "I Like Big Frameworks and I Can Not Lie",
+        "authors": [
+          {
+            "name": "Paul Bailey",
+            "slug": "paul-bailey"
+          }
         ],
         "published": "2015-04-07 17:43:00 -00:00",
-        "summary": "narf",
-        "authors": [
-          "Paul Bailey"
-        ],
-        "title": "I Like Big Frameworks and I Can Not Lie"
+        "categories": [
+          {
+            "name": "Development",
+            "slug": "development"
+          }
+        ]
       }
     ],
     [
       "2015/03-17-edit-via-dropbox-or-sftp",
       {
-        "categories": [
-          "Chrome",
-          "Neutron Drive"
+        "summary": "\n\nIf you ever wanted to edit files via Dropbox or SFTP in Neutron Drive on Chrome OS, your ship has come in. With two new apps you can now mount Dropbox and SFTP so that you can edit files with either of these cloud services. Follow the steps below to ...",
+        "title": "Edit via Dropbox or SFTP in Chrome OS",
+        "authors": [
+          {
+            "name": "Paul Bailey",
+            "slug": "paul-bailey"
+          }
         ],
         "published": "2015-03-17 17:36:00 -00:00",
-        "summary": "narf",
-        "authors": [
-          "Paul Bailey"
-        ],
-        "title": "Edit via Dropbox or SFTP in Chrome OS"
+        "categories": [
+          {
+            "name": "Chrome",
+            "slug": "chrome"
+          },
+          {
+            "name": "Neutron Drive",
+            "slug": "neutron-drive"
+          }
+        ]
       }
     ],
     [
       "2015/01-27-isomorphic-javascript-is-not-the-answer",
       {
-        "categories": [
-          "Development",
-          "Javscript"
+        "summary": "\n\nThe new hotness lately is Isomorphic Javascript. Isomorphic Javascript basically means you can run the same code on the server as the client (aka the web browser). It was created to solve the problem of single page web apps running slowly. Since Java...",
+        "title": "Isomorphic Javascript is not the Answer",
+        "authors": [
+          {
+            "name": "Paul Bailey",
+            "slug": "paul-bailey"
+          }
         ],
         "published": "2015-01-27 19:25:00 -00:00",
-        "summary": "narf",
-        "authors": [
-          "Paul Bailey"
-        ],
-        "title": "Isomorphic Javascript is not the Answer"
+        "categories": [
+          {
+            "name": "Development",
+            "slug": "development"
+          },
+          {
+            "name": "Javscript",
+            "slug": "javscript"
+          }
+        ]
       }
     ],
     [
       "2015/01-03-tacosaurus-release",
       {
-        "categories": [
-          "Release"
+        "summary": "\n\n Version 15.1.1 (Tacosaurus) was released to the Chrome Web Store today. This release introduces membership to Neutron Drive. Membership is a way you can help to support Neutron Drive development and maintenance. Membership is optional, but gives you...",
+        "title": "Version 15.1.1 (Tacosaurus) Release",
+        "authors": [
+          {
+            "name": "Paul Bailey",
+            "slug": "paul-bailey"
+          }
         ],
         "published": "2015-01-03 20:38:00 -00:00",
-        "summary": "narf",
-        "authors": [
-          "Paul Bailey"
-        ],
-        "title": "Version 15.1.1 (Tacosaurus) Release"
+        "categories": [
+          {
+            "name": "Release",
+            "slug": "release"
+          }
+        ]
       }
     ],
     [
       "2014/12-18-optimize-development-process-for-humans",
       {
-        "categories": [
-          "Development"
+        "summary": "\n\nAs developers and engineers we love to optimize things whether it be code or processes. And since we are technically oriented, we often focus on the technical issues and kind of forget about the human element. We think if we can just make the best pr...",
+        "title": "Optimize Your Development Process for Humans",
+        "authors": [
+          {
+            "name": "Paul Bailey",
+            "slug": "paul-bailey"
+          }
         ],
         "published": "2014-12-18 11:20:00 -00:00",
-        "summary": "narf",
-        "authors": [
-          "Paul Bailey"
-        ],
-        "title": "Optimize Your Development Process for Humans"
+        "categories": [
+          {
+            "name": "Development",
+            "slug": "development"
+          }
+        ]
       }
     ],
     [
       "2014/11-30-turducken-release",
       {
-        "categories": [
-          "Release",
-          "Announcement"
+        "summary": "\n\n Version 14.11.9 (Turducken) was released to the Chrome Web Store today. In addition to several bug fixes, Turducken contains severval new features. ACE Editor was updated and Neutron now supports new code modes Elixir, Elm, Praat, Eiffel, G-Code, gi...",
+        "title": "Version 14.11.9 (Turducken) Release",
+        "authors": [
+          {
+            "name": "Paul Bailey",
+            "slug": "paul-bailey"
+          }
         ],
         "published": "2014-11-30 11:41:00 -00:00",
-        "summary": "narf",
-        "authors": [
-          "Paul Bailey"
-        ],
-        "title": "Version 14.11.9 (Turducken) Release"
+        "categories": [
+          {
+            "name": "Release",
+            "slug": "release"
+          },
+          {
+            "name": "Announcement",
+            "slug": "announcement"
+          }
+        ]
       }
     ],
     [
       "2014/11-07-cold-turkey-release",
       {
-        "categories": [
-          "Release"
+        "summary": "\n\nVersion 14.11.3 (Cold Turkey) was released today to the Chrome Web Store. Version 14.11.2 of Neutron Beam was also released to PyPI. Cold Turkey adds the ability to upload files to Google Drive and Neutron Beam projects. This release also adds messag...",
+        "title": "Version 14.11.3 (Cold Turkey) Release",
+        "authors": [
+          {
+            "name": "Paul Bailey",
+            "slug": "paul-bailey"
+          }
         ],
         "published": "2014-11-07 17:53:00 -00:00",
-        "summary": "narf",
-        "authors": [
-          "Paul Bailey"
-        ],
-        "title": "Version 14.11.3 (Cold Turkey) Release"
+        "categories": [
+          {
+            "name": "Release",
+            "slug": "release"
+          }
+        ]
       }
     ],
     [
       "2014/11-03-turkey-burger-release",
       {
-        "categories": [
-          "Release"
+        "summary": "\n\nVersion 14.11.1 (Turkey Burger) was released today. Turkey Burger contains several stability and bug fixes such as reinitializing encryption when keys fail, reinitializing Google Drive authenication on account failures, etc. Turkey Burger also adds t...",
+        "title": "Version 14.11.1 (Turkey Burger) Release",
+        "authors": [
+          {
+            "name": "Paul Bailey",
+            "slug": "paul-bailey"
+          }
         ],
         "published": "2014-11-03 17:57:00 -00:00",
-        "summary": "narf",
-        "authors": [
-          "Paul Bailey"
-        ],
-        "title": "Version 14.11.1 (Turkey Burger) Release"
+        "categories": [
+          {
+            "name": "Release",
+            "slug": "release"
+          }
+        ]
       }
     ],
     [
       "2014/10-29-crypto-cat-release",
       {
-        "categories": [
-          "Release"
+        "summary": "\n\n Version 14.10.4, Crypto Cat, was released today. With this release Version 14.10.2 of Neutron Beam was also released. Crypto Cat brings encryption to Neutron Beam so it can be used over untrusted networks. This is the first release of Neutron Beam e...",
+        "title": "Version 14.10.4 (Crypto Cat) Release",
+        "authors": [
+          {
+            "name": "Paul Bailey",
+            "slug": "paul-bailey"
+          }
         ],
         "published": "2014-10-29 11:12:00 -00:00",
-        "summary": "narf",
-        "authors": [
-          "Paul Bailey"
-        ],
-        "title": "Version 14.10.4 (Crypto Cat) Release"
+        "categories": [
+          {
+            "name": "Release",
+            "slug": "release"
+          }
+        ]
       }
     ]
-  ],
-  "total-pages": 2
+  ]
 }
