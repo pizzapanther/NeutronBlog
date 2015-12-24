@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Google Drive",
+    "slug": "google-drive"
+  },
+  {
+    "name": "Hellstew",
+    "slug": "hellstew"
+  },
+  {
+    "name": "docker",
+    "slug": "docker"
+  },
+  {
+    "name": "SSL",
+    "slug": "ssl"
+  },
+  {
+    "name": "memcache",
+    "slug": "memcache"
+  },
+  {
+    "name": "GAE",
+    "slug": "gae"
+  },
+  {
+    "name": "django",
+    "slug": "django"
+  },
+  {
+    "name": "Announcement",
+    "slug": "announcement"
+  },
+  {
+    "name": "Javscript",
+    "slug": "javscript"
+  },
+  {
+    "name": "Neutron Drive",
+    "slug": "neutron-drive"
+  },
+  {
+    "name": "Chrome",
+    "slug": "chrome"
+  },
+  {
+    "name": "Development",
+    "slug": "development"
+  },
+  {
+    "name": "Release",
+    "slug": "release"
+  }
+]
