@@ -5,6 +5,9 @@ a {
 md-content.main {
   background-color: #e9e9e9;
 }
+md-content.main > div {
+  max-width: 1080px;
+}
 md-toolbar img {
   width: 48px;
   margin-right: 8px;
