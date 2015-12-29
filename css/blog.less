@@ -10,6 +10,12 @@ a {
 md-content.main {
   background-color: @bgColor;
   
+  @media (min-width: 500px) {
+    > div {
+      padding: 8px;
+    }
+  }
+  
   > div {
     max-width: 800px;
     margin: 0 auto;
@@ -38,5 +44,11 @@ md-toolbar {
     display: block;
     max-width: 100%;
     margin: 0 auto 20px auto;
+  }
+}
+
+.post {
+  h1, h2 {
+    margin: 0 0.5rem 0.5rem 0;
   }
 }

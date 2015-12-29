@@ -5,6 +5,11 @@ a {
 md-content.main {
   background-color: #e9e9e9;
 }
+@media (min-width: 500px) {
+  md-content.main > div {
+    padding: 8px;
+  }
+}
 md-content.main > div {
   max-width: 800px;
   margin: 0 auto;
@@ -23,4 +28,8 @@ md-toolbar img {
   display: block;
   max-width: 100%;
   margin: 0 auto 20px auto;
+}
+.post h1,
+.post h2 {
+  margin: 0 0.5rem 0.5rem 0;
 }
