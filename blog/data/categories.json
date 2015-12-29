@@ -1,54 +1,54 @@
 [
   {
-    "name": "Google Drive",
-    "slug": "google-drive"
+    "slug": "google-drive",
+    "name": "Google Drive"
   },
   {
-    "name": "Hellstew",
-    "slug": "hellstew"
+    "slug": "hellstew",
+    "name": "Hellstew"
   },
   {
-    "name": "docker",
-    "slug": "docker"
+    "slug": "docker",
+    "name": "docker"
   },
   {
-    "name": "SSL",
-    "slug": "ssl"
+    "slug": "ssl",
+    "name": "SSL"
   },
   {
-    "name": "memcache",
-    "slug": "memcache"
+    "slug": "memcache",
+    "name": "memcache"
   },
   {
-    "name": "GAE",
-    "slug": "gae"
+    "slug": "gae",
+    "name": "GAE"
   },
   {
-    "name": "django",
-    "slug": "django"
+    "slug": "django",
+    "name": "django"
   },
   {
-    "name": "Announcement",
-    "slug": "announcement"
+    "slug": "announcement",
+    "name": "Announcement"
   },
   {
-    "name": "Javscript",
-    "slug": "javscript"
+    "slug": "javscript",
+    "name": "Javscript"
   },
   {
-    "name": "Neutron Drive",
-    "slug": "neutron-drive"
+    "slug": "neutron-drive",
+    "name": "Neutron Drive"
   },
   {
-    "name": "Chrome",
-    "slug": "chrome"
+    "slug": "chrome",
+    "name": "Chrome"
   },
   {
-    "name": "Development",
-    "slug": "development"
+    "slug": "development",
+    "name": "Development"
   },
   {
-    "name": "Release",
-    "slug": "release"
+    "slug": "release",
+    "name": "Release"
   }
 ]

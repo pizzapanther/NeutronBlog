@@ -1,166 +1,167 @@
 {
-  "total-pages": 2,
+  "total_pages": 2,
   "posts": [
     [
       "2014/10-24-laser-cat-release",
       {
-        "summary": "\n\nVersion 14.10.3, Laser Cat, was released today. Laser Cat, brings Neutron Beam into Super Neutron Drive. **Warning:** this first release of Neutron Beam does not support request encryption yet. So make sure to use a VPN, SSH tunnel, or a local networ...",
-        "title": "Version 14.10.3 (Laser Cat) Release",
-        "authors": [
-          {
-            "name": "Paul Bailey",
-            "slug": "paul-bailey"
-          }
-        ],
         "published": "2014-10-24 17:19:00 -00:00",
+        "summary": "\n\nVersion 14.10.3, Laser Cat, was released today. Laser Cat, brings Neutron Beam into Super Neutron Drive. **Warning:** this first release of Neutron Beam does not support request encryption yet. So make sure to use a VPN, SSH tunnel, or a local networ...",
         "categories": [
           {
-            "name": "Announcement",
-            "slug": "announcement"
+            "slug": "announcement",
+            "name": "Announcement"
           },
           {
-            "name": "Release",
-            "slug": "release"
+            "slug": "release",
+            "name": "Release"
           }
-        ]
+        ],
+        "authors": [
+          {
+            "slug": "paul-bailey",
+            "name": "Paul Bailey"
+          }
+        ],
+        "title": "Version 14.10.3 (Laser Cat) Release"
       }
     ],
     [
       "2014/10-20-version-14102-release",
       {
-        "summary": "\n\nVersion 14.10.2 was released today. This version introduces a login on application startup. This login can be disabled by going to your preferences or hitting the \"skip forever\" button when prompted to login. Right now the login is not used for anyth...",
-        "title": "Version 14.10.2 Release",
-        "authors": [
-          {
-            "name": "Paul Bailey",
-            "slug": "paul-bailey"
-          }
-        ],
         "published": "2014-10-20 19:09:00 -00:00",
+        "summary": "\n\nVersion 14.10.2 was released today. This version introduces a login on application startup. This login can be disabled by going to your preferences or hitting the \"skip forever\" button when prompted to login. Right now the login is not used for anyth...",
         "categories": [
           {
-            "name": "Announcement",
-            "slug": "announcement"
+            "slug": "announcement",
+            "name": "Announcement"
           },
           {
-            "name": "Release",
-            "slug": "release"
+            "slug": "release",
+            "name": "Release"
           }
-        ]
+        ],
+        "authors": [
+          {
+            "slug": "paul-bailey",
+            "name": "Paul Bailey"
+          }
+        ],
+        "title": "Version 14.10.2 Release"
       }
     ],
     [
       "2014/10-16-django-on-gae-memcache",
       {
-        "summary": "\n\n\n\nNot too long ago you had to use some seriously hacked solutions like Django Non-rel or strip out a lot of components to get Django running on Google App Engine. Since the introduction of [CloudSQL](https://cloud.google.com/sql/), you can pretty muc...",
-        "title": "Django on Google App Engine Part 1: Memcache",
-        "authors": [
-          {
-            "name": "Paul Bailey",
-            "slug": "paul-bailey"
-          }
-        ],
         "published": "2014-10-16 09:57:00 -00:00",
+        "summary": "\n\n\n\nNot too long ago you had to use some seriously hacked solutions like Django Non-rel or strip out a lot of components to get Django running on Google App Engine. Since the introduction of [CloudSQL](https://cloud.google.com/sql/), you can pretty muc...",
         "categories": [
           {
-            "name": "django",
-            "slug": "django"
+            "slug": "django",
+            "name": "django"
           },
           {
-            "name": "GAE",
-            "slug": "gae"
+            "slug": "gae",
+            "name": "GAE"
           },
           {
-            "name": "memcache",
-            "slug": "memcache"
+            "slug": "memcache",
+            "name": "memcache"
           }
-        ]
+        ],
+        "authors": [
+          {
+            "slug": "paul-bailey",
+            "name": "Paul Bailey"
+          }
+        ],
+        "title": "Django on Google App Engine Part 1: Memcache"
       }
     ],
     [
       "2014/10-10-undocumented-guide-to-using-ssl-on-google-app-engine",
       {
-        "summary": "\n\nGetting SSL working on Google App Engine (GAE) can be very frustrating because number one, SSL is confusing to most and number two, the documentation is out of date. The big problem is you have to use the Google Apps Admin Console to deploy SSL now, ...",
-        "title": "The Undocumented Guide to Using SSL on Google App Engine",
-        "authors": [
-          {
-            "name": "Paul Bailey",
-            "slug": "paul-bailey"
-          }
-        ],
         "published": "2014-10-10 10:58:00 -00:00",
+        "summary": "\n\nGetting SSL working on Google App Engine (GAE) can be very frustrating because number one, SSL is confusing to most and number two, the documentation is out of date. The big problem is you have to use the Google Apps Admin Console to deploy SSL now, ...",
         "categories": [
           {
-            "name": "GAE",
-            "slug": "gae"
+            "slug": "gae",
+            "name": "GAE"
           },
           {
-            "name": "SSL",
-            "slug": "ssl"
+            "slug": "ssl",
+            "name": "SSL"
           }
-        ]
+        ],
+        "authors": [
+          {
+            "slug": "paul-bailey",
+            "name": "Paul Bailey"
+          }
+        ],
+        "title": "The Undocumented Guide to Using SSL on Google App Engine"
       }
     ],
     [
       "2014/10-08-version-14101-release",
       {
-        "summary": "\n\nVersion 14.10.1 was released today. It simply adds \"delete\" to the right click menu in the project file browser. You can now delete files and directories with the file browser. Look for your app to update automatically from the Chrome Web Store.\n",
-        "title": "Version 14.10.1 Release",
-        "authors": [
-          {
-            "name": "Paul Bailey",
-            "slug": "paul-bailey"
-          }
-        ],
         "published": "2014-10-08 11:09:00 -00:00",
+        "summary": "\n\nVersion 14.10.1 was released today. It simply adds \"delete\" to the right click menu in the project file browser. You can now delete files and directories with the file browser. Look for your app to update automatically from the Chrome Web Store.\n",
         "categories": [
           {
-            "name": "Release",
-            "slug": "release"
+            "slug": "release",
+            "name": "Release"
           }
-        ]
+        ],
+        "authors": [
+          {
+            "slug": "paul-bailey",
+            "name": "Paul Bailey"
+          }
+        ],
+        "title": "Version 14.10.1 Release"
       }
     ],
     [
       "2014/09-26-docker-toxic-hellstew",
       {
-        "summary": "\n\nDeveloper tools are great.  They can turn a tedious task into a trivial stroke of a few keys. However, sometimes we use these powerful tools to just cover up our crappy code. A perfect example of this is how Docker is often used. Because Docker makes...",
-        "title": "Quit Covering Up Your Toxic Hellstew With Docker",
-        "authors": [
-          {
-            "name": "Paul Bailey",
-            "slug": "paul-bailey"
-          }
-        ],
         "published": "2014-09-26 15:12:00 -00:00",
+        "summary": "\n\nDeveloper tools are great.  They can turn a tedious task into a trivial stroke of a few keys. However, sometimes we use these powerful tools to just cover up our crappy code. A perfect example of this is how Docker is often used. Because Docker makes...",
         "categories": [
           {
-            "name": "docker",
-            "slug": "docker"
+            "slug": "docker",
+            "name": "docker"
           },
           {
-            "name": "Hellstew",
-            "slug": "hellstew"
+            "slug": "hellstew",
+            "name": "Hellstew"
           }
-        ]
+        ],
+        "authors": [
+          {
+            "slug": "paul-bailey",
+            "name": "Paul Bailey"
+          }
+        ],
+        "title": "Quit Covering Up Your Toxic Hellstew With Docker"
       }
     ],
     [
       "2014/09-11-google-drive-support-with-multiple-accounts",
       {
-        "summary": "\n\nIf you haven't checked out the new version of Neutron Drive, [Super Neutron Drive](https://chrome.google.com/webstore/detail/super-neutron-drive/hjmodhnpiombojkgckmmhjhihfhphajp), you need to check it out today.  Today we released support for Google ...",
-        "title": "Google Drive Support with Multiple Accounts",
-        "authors": [
-          {
-            "name": "Paul Bailey",
-            "slug": "paul-bailey"
-          }
-        ],
         "published": "2014-09-11 15:57:00 -00:00",
+        "summary": "\n\nIf you haven't checked out the new version of Neutron Drive, [Super Neutron Drive](https://chrome.google.com/webstore/detail/super-neutron-drive/hjmodhnpiombojkgckmmhjhihfhphajp), you need to check it out today.  Today we released support for Google ...",
         "categories": [
           {
-            "name": "Google Drive",
-            "slug": "google-drive"
+            "slug": "google-drive",
+            "name": "Google Drive"
+          }
+        ],
+        "title": "Google Drive Support with Multiple Accounts",
+        "image": "/img/posts/gdrive-multi.png",
+        "authors": [
+          {
+            "slug": "paul-bailey",
+            "name": "Paul Bailey"
           }
         ]
       }

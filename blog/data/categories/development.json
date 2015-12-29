@@ -1,19 +1,19 @@
 {
   "posts": [
     {
-      "title": "I Like Big Frameworks and I Can Not Lie",
       "url": "2015/04-07-i-like-big-frameworks-and-i-can-not-lie",
-      "published": "2015-04-07 17:43:00 -00:00"
+      "published": "2015-04-07 17:43:00 -00:00",
+      "title": "I Like Big Frameworks and I Can Not Lie"
     },
     {
-      "title": "Isomorphic Javascript is not the Answer",
       "url": "2015/01-27-isomorphic-javascript-is-not-the-answer",
-      "published": "2015-01-27 19:25:00 -00:00"
+      "published": "2015-01-27 19:25:00 -00:00",
+      "title": "Isomorphic Javascript is not the Answer"
     },
     {
-      "title": "Optimize Your Development Process for Humans",
       "url": "2014/12-18-optimize-development-process-for-humans",
-      "published": "2014-12-18 11:20:00 -00:00"
+      "published": "2014-12-18 11:20:00 -00:00",
+      "title": "Optimize Your Development Process for Humans"
     }
   ]
 }

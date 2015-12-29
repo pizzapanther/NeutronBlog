@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en" ng-app="NeutronApp" ng-controller="GlobalController">
+  <head>
+    <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.css">
+    <link rel="stylesheet" href="/css/blog.css">
+    <link rel="shortcut icon" href="favicon.png">
+    <base href="/">
+  </head>
+  <body ng-cloak layout="row">
+    <div layout="column" role="main" flex>
+      <md-toolbar class="md-whiteframe-glow-z1 site-content-toolbar">
+        <div class="md-toolbar-tools docs-toolbar-tools">
+          <div layout="row" flex class="fill-height">
+            <img ng-src="{{ img('neutron-128-clear.png') }}" alt="">
+            <h2 class="md-toolbar-item md-breadcrumb md-headline">
+              Neutron Drive Blog
+            </h2>
+          </div>
+        </div>
+      </md-toolbar>
+      <md-content class="main" md-scroll-y flex layout-padding>
+        <div ng-view></div>
+      </md-content>
+    </div>
+    <!-- Angular Material requires Angular.js Libraries -->
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-messages.min.js"></script>
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-moment/1.0.0-beta.3/angular-moment.min.js"></script>
+    
+    <!-- Angular Material Library -->
+    <script src="//ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
+    
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/services.js"></script>
+    <script type="text/javascript" src="js/controllers.js"></script>
+  </body>
+</html>

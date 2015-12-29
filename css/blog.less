@@ -1,0 +1,37 @@
+@accentColor: #448AFF;
+@textColor: #212121;
+@bgColor: lighten(#B6B6B6, 20%);
+
+a {
+  text-decoration: none;
+  color: @accentColor;
+}
+
+md-content.main {
+  background-color: @bgColor;
+}
+
+md-toolbar {
+  img {
+    width: 48px;
+    margin-right: 8px;
+  }
+}
+
+.pages {
+  > div:last-child {
+    text-align: right;
+  }
+  
+  .page_num {
+    text-align: center;
+  }
+}
+
+.post {
+  .main img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto 20px auto;
+  }
+}

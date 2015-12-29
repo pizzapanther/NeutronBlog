@@ -1,0 +1,22 @@
+a {
+  text-decoration: none;
+  color: #448AFF;
+}
+md-content.main {
+  background-color: #e9e9e9;
+}
+md-toolbar img {
+  width: 48px;
+  margin-right: 8px;
+}
+.pages > div:last-child {
+  text-align: right;
+}
+.pages .page_num {
+  text-align: center;
+}
+.post .main img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto 20px auto;
+}

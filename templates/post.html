@@ -1,0 +1,16 @@
+<md-card class="post">
+  <md-card-title>
+    <md-card-title-text>
+      <span class="md-headline">{{ post.metadata.title }}</span>
+      <span class="md-subhead">
+        {{ post.metadata.published | amDateFormat:'MM/DD/YYYY HH:mm A' }}
+      </span>
+    </md-card-title-text>
+  </md-card-title>
+  <md-card-content>
+    <div class="main">
+      <img ng-src="{{ post.metadata.image }}" alt="" ng-if="post.metadata.image">
+    </div>
+    {{ post.content }}
+  </md-card-content>
+</md-card>
