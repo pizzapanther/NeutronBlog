@@ -2,10 +2,11 @@
   "title": "I Like Big Frameworks and I Can Not Lie",
   "published": "2015-04-07 17:43",
   "categories": ["Development"],
-  "authors": ["Paul Bailey"]
+  "authors": ["Paul Bailey"],
+  "image": "/img/posts/framework.jpg"
 }
 
-<img class="right" src="https://bf887cb0698e0d75ce76e89c95d6859510a8d9e3.googledrive.com/host/0B-GD95vnz4VFcjg0VUp1QnA4ZWM/framework.jpg" style="width: 300px"> All the rage lately is to trash frameworks and to profess how smart you are and show you can do the same development with libraries and/or micro frameworks. You also show that you are a real developer by coming up with your own abstractions and algorithms. With all this hate going around for big frameworks, I wanted to come out and say: “I like big frameworks and I can not lie, You other brothers can’t deny”.
+All the rage lately is to trash frameworks and to profess how smart you are and show you can do the same development with libraries and/or micro frameworks. You also show that you are a real developer by coming up with your own abstractions and algorithms. With all this hate going around for big frameworks, I wanted to come out and say: “I like big frameworks and I can not lie, You other brothers can’t deny”.
 
 Yes frameworks can suck because instead of coding, you often feeling like you’re fighting the framework and having to learn a very specific way of coding. However, I think it you find a good framework, this is minimized and the benefits are great.
 

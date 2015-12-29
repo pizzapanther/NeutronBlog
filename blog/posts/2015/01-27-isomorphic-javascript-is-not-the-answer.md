@@ -2,10 +2,11 @@
   "title": "Isomorphic Javascript is not the Answer",
   "published": "2015-01-27 19:25",
   "categories": ["Development", "Javscript"],
-  "authors": ["Paul Bailey"]
+  "authors": ["Paul Bailey"],
+  "image": "/img/posts/isomorphic.jpg"
 }
 
-<img class="right" src="https://bf887cb0698e0d75ce76e89c95d6859510a8d9e3.googledrive.com/host/0B-GD95vnz4VFcjg0VUp1QnA4ZWM/isomorphic.jpg" style="width: 300px; padding-bottom: 10px;">The new hotness lately is Isomorphic Javascript. Isomorphic Javascript basically means you can run the same code on the server as the client (aka the web browser). It was created to solve the problem of single page web apps running slowly. Since Javascript has been growing up, more and more code ends up running in the browser. The problem with this is that client side Javascript ends up increasing load times and thus ruining the initial user experience. There are other problems with client side JS that isomorphic JS solves but this is the main one. So Isomorphic JS renders the initial view on server so when you get the HTML your browser is ready to hit the ground running. All subsequent client side code is run as normal in the browser.
+The new hotness lately is Isomorphic Javascript. Isomorphic Javascript basically means you can run the same code on the server as the client (aka the web browser). It was created to solve the problem of single page web apps running slowly. Since Javascript has been growing up, more and more code ends up running in the browser. The problem with this is that client side Javascript ends up increasing load times and thus ruining the initial user experience. There are other problems with client side JS that isomorphic JS solves but this is the main one. So Isomorphic JS renders the initial view on server so when you get the HTML your browser is ready to hit the ground running. All subsequent client side code is run as normal in the browser.
 
 While this sounds good to get the ultimate performance from your web app, isn’t there a better way to speed up client side loads times without having to mix server side and client side code? The separation of frontend and backend in web development makes a really clean separation that I would hate to combine again.
 
