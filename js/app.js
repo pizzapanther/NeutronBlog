@@ -6,7 +6,8 @@ function img (path) {
   return 'img/' + path;
 }
 
-var napp = angular.module('NeutronApp', ['ngMaterial', 'ngRoute', 'angularMoment']);
+var napp = angular.module('NeutronApp', [
+  'ngMaterial', 'ngRoute', 'angularMoment', 'hc.commonmark']);
 
 napp.config(function ($routeProvider, $locationProvider) {
   $locationProvider.html5Mode(true);
