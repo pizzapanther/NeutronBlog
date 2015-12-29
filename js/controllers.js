@@ -1,6 +1,17 @@
 napp.controller('GlobalController', function ($scope, $mdDialog) {
   $scope.tpl = tpl;
   $scope.img = img;
+  var title = "Neutron Drive Blog";
+  
+  $scope.set_title = function (t) {
+    if (t) {
+      $scope.title = t + " | " + title;
+    }
+    
+    else {
+      $scope.title = title;
+    }
+  };
   
   $scope.show_error = function (message, event) {
     $mdDialog.show(
@@ -13,12 +24,15 @@ napp.controller('GlobalController', function ($scope, $mdDialog) {
         .targetEvent(event)
     );
   };
+  
+  $scope.set_title();
 });
 
 napp.controller('ListController', function ($scope, $location, DataService) {
   var search = $location.search();
   
   $scope.page = parseInt(search.page || 1);
+  $scope.set_title();
   
   $scope.load_posts = function (response) {
     $scope.posts = response.data.posts;
@@ -46,6 +60,7 @@ napp.controller('PostController', function ($scope, $routeParams, DataService) {
   
   $scope.load_post = function (response) {
     $scope.post = DataService.parse_post(response.data);
+    $scope.set_title($scope.post.metadata.title);
   };
   
   DataService.get_post(path).then(
