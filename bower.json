@@ -20,6 +20,7 @@
     "angular-commonmark": "Hypercubed/angular-commonmark#~0.0.8",
     "angular-material": "~1.0.1",
     "angular-route": "~1.4.8",
-    "angular-moment": "~0.10.3"
+    "angular-moment": "~0.10.3",
+    "nb-blog": "~1.0.1"
   }
 }
