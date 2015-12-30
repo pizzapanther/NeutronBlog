@@ -1,51 +1,59 @@
 {
+  "total_pages": 2,
   "posts": [
     [
       "2015/04-29-version-1541-cyber-roach-released",
       {
-        "image": "/img/posts/roach.jpg",
+        "summary": "\n\nVersion 15.4.1 (Cyber Roach) was released today. Cyber Roach includes two really cool features, spell checking and auto code complete. Both can be turned on and off in your preferences. However, spell checking can be quickly toggled on and off with `...",
+        "published": "2015-04-29 13:43:00 -00:00",
+        "authors": [
+          {
+            "name": "Paul Bailey",
+            "slug": "paul-bailey"
+          }
+        ],
         "categories": [
           {
             "name": "Release",
             "slug": "release"
           }
         ],
-        "summary": "\n\nVersion 15.4.1 (Cyber Roach) was released today. Cyber Roach includes two really cool features, spell checking and auto code complete. Both can be turned on and off in your preferences. However, spell checking can be quickly toggled on and off with `...",
+        "title": "Version 15.4.1 (Cyber Roach) Released",
+        "image": "/img/posts/roach.jpg"
+      }
+    ],
+    [
+      "2015/04-07-i-like-big-frameworks-and-i-can-not-lie",
+      {
+        "summary": "\n\nAll the rage lately is to trash frameworks and to profess how smart you are and show you can do the same development with libraries and/or micro frameworks. You also show that you are a real developer by coming up with your own abstractions and algor...",
+        "published": "2015-04-07 17:43:00 -00:00",
         "authors": [
           {
             "name": "Paul Bailey",
             "slug": "paul-bailey"
           }
         ],
-        "title": "Version 15.4.1 (Cyber Roach) Released",
-        "published": "2015-04-29 13:43:00 -00:00"
-      }
-    ],
-    [
-      "2015/04-07-i-like-big-frameworks-and-i-can-not-lie",
-      {
-        "image": "/img/posts/framework.jpg",
         "categories": [
           {
             "name": "Development",
             "slug": "development"
           }
         ],
-        "summary": "\n\nAll the rage lately is to trash frameworks and to profess how smart you are and show you can do the same development with libraries and/or micro frameworks. You also show that you are a real developer by coming up with your own abstractions and algor...",
+        "title": "I Like Big Frameworks and I Can Not Lie",
+        "image": "/img/posts/framework.jpg"
+      }
+    ],
+    [
+      "2015/03-17-edit-via-dropbox-or-sftp",
+      {
+        "summary": "\n\nIf you ever wanted to edit files via Dropbox or SFTP in Neutron Drive on Chrome OS, your ship has come in. With two new apps you can now mount Dropbox and SFTP so that you can edit files with either of these cloud services. Follow the steps below to ...",
+        "published": "2015-03-17 17:36:00 -00:00",
         "authors": [
           {
             "name": "Paul Bailey",
             "slug": "paul-bailey"
           }
         ],
-        "title": "I Like Big Frameworks and I Can Not Lie",
-        "published": "2015-04-07 17:43:00 -00:00"
-      }
-    ],
-    [
-      "2015/03-17-edit-via-dropbox-or-sftp",
-      {
-        "image": "/img/posts/funny-pictures-cat-searches-for-a-file.jpg",
         "categories": [
           {
             "name": "Chrome",
@@ -56,21 +64,21 @@
             "slug": "neutron-drive"
           }
         ],
-        "summary": "\n\nIf you ever wanted to edit files via Dropbox or SFTP in Neutron Drive on Chrome OS, your ship has come in. With two new apps you can now mount Dropbox and SFTP so that you can edit files with either of these cloud services. Follow the steps below to ...",
+        "title": "Edit via Dropbox or SFTP in Chrome OS",
+        "image": "/img/posts/funny-pictures-cat-searches-for-a-file.jpg"
+      }
+    ],
+    [
+      "2015/01-27-isomorphic-javascript-is-not-the-answer",
+      {
+        "summary": "\n\nThe new hotness lately is Isomorphic Javascript. Isomorphic Javascript basically means you can run the same code on the server as the client (aka the web browser). It was created to solve the problem of single page web apps running slowly. Since Java...",
+        "published": "2015-01-27 19:25:00 -00:00",
         "authors": [
           {
             "name": "Paul Bailey",
             "slug": "paul-bailey"
           }
         ],
-        "title": "Edit via Dropbox or SFTP in Chrome OS",
-        "published": "2015-03-17 17:36:00 -00:00"
-      }
-    ],
-    [
-      "2015/01-27-isomorphic-javascript-is-not-the-answer",
-      {
-        "image": "/img/posts/isomorphic.jpg",
         "categories": [
           {
             "name": "Development",
@@ -81,62 +89,62 @@
             "slug": "javscript"
           }
         ],
-        "summary": "\n\nThe new hotness lately is Isomorphic Javascript. Isomorphic Javascript basically means you can run the same code on the server as the client (aka the web browser). It was created to solve the problem of single page web apps running slowly. Since Java...",
+        "title": "Isomorphic Javascript is not the Answer",
+        "image": "/img/posts/isomorphic.jpg"
+      }
+    ],
+    [
+      "2015/01-03-tacosaurus-release",
+      {
+        "summary": "\n\nVersion 15.1.1 (Tacosaurus) was released to the Chrome Web Store today. This release introduces membership to Neutron Drive. Membership is a way you can help to support Neutron Drive development and maintenance. Membership is optional, but gives you ...",
+        "published": "2015-01-03 20:38:00 -00:00",
         "authors": [
           {
             "name": "Paul Bailey",
             "slug": "paul-bailey"
           }
         ],
-        "title": "Isomorphic Javascript is not the Answer",
-        "published": "2015-01-27 19:25:00 -00:00"
-      }
-    ],
-    [
-      "2015/01-03-tacosaurus-release",
-      {
-        "image": "/img/posts/tacosaurus.jpg",
         "categories": [
           {
             "name": "Release",
             "slug": "release"
           }
         ],
-        "summary": "\n\nVersion 15.1.1 (Tacosaurus) was released to the Chrome Web Store today. This release introduces membership to Neutron Drive. Membership is a way you can help to support Neutron Drive development and maintenance. Membership is optional, but gives you ...",
+        "title": "Version 15.1.1 (Tacosaurus) Release",
+        "image": "/img/posts/tacosaurus.jpg"
+      }
+    ],
+    [
+      "2014/12-18-optimize-development-process-for-humans",
+      {
+        "summary": "\n\nAs developers and engineers we love to optimize things whether it be code or processes. And since we are technically oriented, we often focus on the technical issues and kind of forget about the human element. We think if we can just make the best pr...",
+        "published": "2014-12-18 11:20:00 -00:00",
         "authors": [
           {
             "name": "Paul Bailey",
             "slug": "paul-bailey"
           }
         ],
-        "title": "Version 15.1.1 (Tacosaurus) Release",
-        "published": "2015-01-03 20:38:00 -00:00"
-      }
-    ],
-    [
-      "2014/12-18-optimize-development-process-for-humans",
-      {
         "categories": [
           {
             "name": "Development",
             "slug": "development"
           }
         ],
-        "summary": "\n\nAs developers and engineers we love to optimize things whether it be code or processes. And since we are technically oriented, we often focus on the technical issues and kind of forget about the human element. We think if we can just make the best pr...",
+        "title": "Optimize Your Development Process for Humans"
+      }
+    ],
+    [
+      "2014/11-30-turducken-release",
+      {
+        "summary": "\n\nVersion 14.11.9 (Turducken) was released to the Chrome Web Store today. In addition to several bug fixes, Turducken contains severval new features. ACE Editor was updated and Neutron now supports new code modes Elixir, Elm, Praat, Eiffel, G-Code, git...",
+        "published": "2014-11-30 11:41:00 -00:00",
         "authors": [
           {
             "name": "Paul Bailey",
             "slug": "paul-bailey"
           }
         ],
-        "title": "Optimize Your Development Process for Humans",
-        "published": "2014-12-18 11:20:00 -00:00"
-      }
-    ],
-    [
-      "2014/11-30-turducken-release",
-      {
-        "image": "/img/posts/turducken.png",
         "categories": [
           {
             "name": "Release",
@@ -147,80 +155,72 @@
             "slug": "announcement"
           }
         ],
-        "summary": "\n\nVersion 14.11.9 (Turducken) was released to the Chrome Web Store today. In addition to several bug fixes, Turducken contains severval new features. ACE Editor was updated and Neutron now supports new code modes Elixir, Elm, Praat, Eiffel, G-Code, git...",
-        "authors": [
-          {
-            "name": "Paul Bailey",
-            "slug": "paul-bailey"
-          }
-        ],
         "title": "Version 14.11.9 (Turducken) Release",
-        "published": "2014-11-30 11:41:00 -00:00"
+        "image": "/img/posts/turducken.png"
       }
     ],
     [
       "2014/11-07-cold-turkey-release",
       {
-        "image": "/img/posts/cold-turkey.jpg",
-        "categories": [
-          {
-            "name": "Release",
-            "slug": "release"
-          }
-        ],
         "summary": "\n\nVersion 14.11.3 (Cold Turkey) was released today to the Chrome Web Store. Version 14.11.2 of Neutron Beam was also released to PyPI. Cold Turkey adds the ability to upload files to Google Drive and Neutron Beam projects. This release also adds messag...",
+        "published": "2014-11-07 17:53:00 -00:00",
         "authors": [
           {
             "name": "Paul Bailey",
             "slug": "paul-bailey"
           }
         ],
+        "categories": [
+          {
+            "name": "Release",
+            "slug": "release"
+          }
+        ],
         "title": "Version 14.11.3 (Cold Turkey) Release",
-        "published": "2014-11-07 17:53:00 -00:00"
+        "image": "/img/posts/cold-turkey.jpg"
       }
     ],
     [
       "2014/11-03-turkey-burger-release",
       {
-        "image": "/img/posts/tburger.jpg",
-        "categories": [
-          {
-            "name": "Release",
-            "slug": "release"
-          }
-        ],
         "summary": "\n\nVersion 14.11.1 (Turkey Burger) was released today. Turkey Burger contains several stability and bug fixes such as reinitializing encryption when keys fail, reinitializing Google Drive authenication on account failures, etc. Turkey Burger also adds t...",
+        "published": "2014-11-03 17:57:00 -00:00",
         "authors": [
           {
             "name": "Paul Bailey",
             "slug": "paul-bailey"
           }
         ],
+        "categories": [
+          {
+            "name": "Release",
+            "slug": "release"
+          }
+        ],
         "title": "Version 14.11.1 (Turkey Burger) Release",
-        "published": "2014-11-03 17:57:00 -00:00"
+        "image": "/img/posts/tburger.jpg"
       }
     ],
     [
       "2014/10-29-crypto-cat-release",
       {
-        "image": "/img/posts/cryptocat.png",
-        "categories": [
-          {
-            "name": "Release",
-            "slug": "release"
-          }
-        ],
         "summary": "\n\nVersion 14.10.4, Crypto Cat, was released today. With this release Version 14.10.2 of Neutron Beam was also released. Crypto Cat brings encryption to Neutron Beam so it can be used over untrusted networks. This is the first release of Neutron Beam en...",
+        "published": "2014-10-29 11:12:00 -00:00",
         "authors": [
           {
             "name": "Paul Bailey",
             "slug": "paul-bailey"
           }
         ],
+        "categories": [
+          {
+            "name": "Release",
+            "slug": "release"
+          }
+        ],
         "title": "Version 14.10.4 (Crypto Cat) Release",
-        "published": "2014-10-29 11:12:00 -00:00"
+        "image": "/img/posts/cryptocat.png"
       }
     ]
-  ],
-  "total_pages": 2
+  ]
 }
