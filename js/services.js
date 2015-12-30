@@ -13,13 +13,13 @@ napp.service('DataService', function ($http) {
     var c;
     var content = '';
     var opens = 0;
-    var metadata = {};
+    var metadata = null;
     
     for (var i=0; i < body.length; i++) {
       c = body.charAt(i);
       content = content + c;
       
-      if (c == '{') {
+      if (c == '{' && !metadata) {
         if (opens === 0) {
           content = c;
         }
@@ -35,7 +35,9 @@ napp.service('DataService', function ($http) {
             metadata = JSON.parse(content);
           }
           
-          catch (error) {}
+          catch (error) {
+            metadata = {};
+          }
           content = '';
         }
       }

@@ -2,10 +2,11 @@
   "title": "Version 14.10.3 (Laser Cat) Release",
   "published": "2014-10-24 17:19",
   "categories": ["Announcement", "Release"],
-  "authors": ["Paul Bailey"]
+  "authors": ["Paul Bailey"],
+  "image": "/img/posts/laser-cat.jpg"
 }
 
-<img class="right" src="https://bf887cb0698e0d75ce76e89c95d6859510a8d9e3.googledrive.com/host/0B-GD95vnz4VFcjg0VUp1QnA4ZWM/laser-cat.jpg" style="width: 300px;">Version 14.10.3, Laser Cat, was released today. Laser Cat, brings Neutron Beam into Super Neutron Drive. **Warning:** this first release of Neutron Beam does not support request encryption yet. So make sure to use a VPN, SSH tunnel, or a local network that you trust. This also means you have to use the **--no-encrypt** flag right now. If you never used Neutron Beam before, please see our [help page](https://super.neutrondrive.com/help/). Or if you need to upgrade Neutron Beam, follow the directions on the [setup page](https://super.neutrondrive.com/help/neutron-beam-setup) but run `pip install neutron-beam --upgrade` to make sure your old version gets replaced. Look for the Neutron Beam that supports request encryption to come soon.
+Version 14.10.3, Laser Cat, was released today. Laser Cat, brings Neutron Beam into Super Neutron Drive. **Warning:** this first release of Neutron Beam does not support request encryption yet. So make sure to use a VPN, SSH tunnel, or a local network that you trust. This also means you have to use the **--no-encrypt** flag right now. If you never used Neutron Beam before, please see our [help page](https://super.neutrondrive.com/help/). Or if you need to upgrade Neutron Beam, follow the directions on the [setup page](https://super.neutrondrive.com/help/neutron-beam-setup) but run `pip install neutron-beam --upgrade` to make sure your old version gets replaced. Look for the Neutron Beam that supports request encryption to come soon.
 
 A quick way to way to setup an encrypted tunnel with SSH is to use the **-L** option like so: `ssh -L 32828:localhost:32828 example.com`
 

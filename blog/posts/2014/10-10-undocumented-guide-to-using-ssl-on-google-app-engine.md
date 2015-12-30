@@ -2,10 +2,11 @@
   "title": "The Undocumented Guide to Using SSL on Google App Engine",
   "published": "2014-10-10 10:58",
   "categories": ["GAE", "SSL"],
-  "authors": ["Paul Bailey"]
+  "authors": ["Paul Bailey"],
+  "image": "/img/posts/appengine_final.png"
 }
 
-<img class="right" src="https://bf887cb0698e0d75ce76e89c95d6859510a8d9e3.googledrive.com/host/0B-GD95vnz4VFcjg0VUp1QnA4ZWM/appengine_final.png" style="width: 300px;">Getting SSL working on Google App Engine (GAE) can be very frustrating because number one, SSL is confusing to most and number two, the documentation is out of date. The big problem is you have to use the Google Apps Admin Console to deploy SSL now, but since that switch, the documentation has never been updated. So here is the guide to using SSL with GAE. I’m starting from the beginning of purchasing an SSL certificate since a lot of people have maybe never purchased or generated a certificate. These directions are for [SNI](http://en.wikipedia.org/wiki/Server_Name_Indication) which is a newer standard that older browsers do not support. So you may need to use purchase an IP address from GAE if you need to support older browsers. However, it is a pretty safe bet nowadays that your browser supports SNI.
+Getting SSL working on Google App Engine (GAE) can be very frustrating because number one, SSL is confusing to most and number two, the documentation is out of date. The big problem is you have to use the Google Apps Admin Console to deploy SSL now, but since that switch, the documentation has never been updated. So here is the guide to using SSL with GAE. I’m starting from the beginning of purchasing an SSL certificate since a lot of people have maybe never purchased or generated a certificate. These directions are for [SNI](http://en.wikipedia.org/wiki/Server_Name_Indication) which is a newer standard that older browsers do not support. So you may need to use purchase an IP address from GAE if you need to support older browsers. However, it is a pretty safe bet nowadays that your browser supports SNI.
 
 ## 1. Purchase an SSL Certificate
 

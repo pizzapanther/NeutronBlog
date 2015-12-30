@@ -2,10 +2,9 @@
   "title": "Django on Google App Engine Part 1: Memcache",
   "published": "2014-10-16 09:57",
   "categories": ["django", "GAE", "memcache"],
-  "authors": ["Paul Bailey"]
+  "authors": ["Paul Bailey"],
+  "image": "/img/posts/memcached_banner75.jpg"
 }
-
-<img class="center" src="https://bf887cb0698e0d75ce76e89c95d6859510a8d9e3.googledrive.com/host/0B-GD95vnz4VFcjg0VUp1QnA4ZWM/memcached_banner75.jpg" style="width: 100%; display: block;">
 
 Not too long ago you had to use some seriously hacked solutions like Django Non-rel or strip out a lot of components to get Django running on Google App Engine. Since the introduction of [CloudSQL](https://cloud.google.com/sql/), you can pretty much run a standard Django install on App Engine. You still have some restrictions and it takes quite a few little tweaks to get things running, but it is doable. I still have some gripes with App Engine but I'm sticking with it because of Google's new [Managed VM Service](https://cloud.google.com/appengine/docs/managed-vms/). The Managed VM service basically gives you App Engine without all the constraints. This is great because you get the power of Google's services like the Datastore, Memcache, Logging, Task Queues, etc and the flexibility to use more Python libraries. I also like to start a project with more constrained services like GAE or Heroku because they often help you to develop an application that is more portable and easy to scale. So if the service does not work out for me in the long run, at least I can move it fairly quickly.
 
